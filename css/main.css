@@ -1,0 +1,138 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    box-sizing: border-box;
+    background-image: url("../img/background.jpeg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: 'Lobster', cursive;
+}
+.primary-menu{
+    color:black;
+    border:1px solid white;
+    border-radius: 4px;
+    font-size: 20px;
+    text-transform: uppercase;
+    margin: 0 auto;
+    background-color: white;
+    width: 70%;
+    opacity: 0.85;
+}
+.primary-menu ul{
+    display: flex;
+    
+}
+.primary-menu ul li{
+    padding:25px;
+    text-align: center;
+    list-style: none;
+
+}
+.search{
+    height:30px;
+    font-family: 'Lobster', cursive;
+    color: #b3b3b3;
+    border:1px solid white;
+    border-radius: 3px;
+    font-size: 20px;
+    border:1.4px solid orange;
+}
+.card-view-vertical{
+    float:left;
+    margin-left:25px;
+}
+.leftFloat{
+    padding: 20px;
+}
+.leftFloat li{
+    list-style: none;
+    color:rgb(148, 236, 16);
+    border:5px solid greenyellow;
+    background-color: white;
+    padding: 7px;
+    margin-bottom: 20px;
+    width: 300px;  
+    opacity: 0.8; 
+}
+.recipe{
+border-bottom: 1.7px solid #b3b3b3;
+}
+.card-view-horizontal{
+    float: right;
+   margin-top: 20px;
+   margin-right:50px;
+  
+}
+.align-side{
+    float: right;
+}
+.side-image{
+    float:left;
+}
+.card-view-horizontal li{
+    float: right;
+    list-style: none;
+    border: 5px solid greenyellow;
+    padding: 5px;
+    background-color: white;
+   
+}
+.align-side{
+    padding:10px;
+}
+.recipe{
+    font-size: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.book{
+    font-weight: 100;
+}
+.recipe-left{
+    padding-top:5px;
+    font-size: 20px;
+    padding-bottom: 5px;
+    border-bottom:2px solid #b3b3b3;
+}
+.see-recipe{
+    padding-top:5px;
+    text-align: center;
+    font-size: 25px;
+}
+.profile{
+    width: 80px;
+    height: 80px;
+    border-radius: 100px;
+    opacity: 0.8;
+}
+.profile:hover{
+   transform: scale(1.2);
+   transition: 0.5s;
+   opacity: 1;
+}
+.context{
+    text-align: center;
+    background-color: white;
+    float:center;
+    width: 25%;
+    margin-left:395px;
+    margin-right: 400px;
+    margin-top:20px;
+  
+}
+.context ul li{
+  list-style: none;
+ padding-bottom: 20px;
+}
+footer{
+    background-color: white;
+    margin-top: 100px;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 10px;
+    padding-top:20px;
+    padding-left:500px;
+    border-radius: 3px;
+}
